@@ -30,7 +30,7 @@ class ConnectToServer : Thread {
     private fun send(number: String) {
         try {
             println("Start send.")
-            val socket = Socket("194.152.37.7", 4446)
+            val socket = Socket("localhost", 8080)
             val outputStream = ObjectOutputStream(socket.getOutputStream())
             val inputStream = ObjectInputStream(socket.getInputStream())
 
