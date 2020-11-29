@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_difficulty"
+        android:title="@string/menu_difficulty"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_easy"
+                    android:checked="true"
+                    android:title="@string/menu_easy"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_middle"
+                    android:title="@string/menu_middle"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_hard"
+                    android:title="@string/menu_hard"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_level"
+        android:title="@string/menu_level"
+        app:showAsAction="always">
+        <menu>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title=""
+        app:showAsAction="always" />
+</menu>

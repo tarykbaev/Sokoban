@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sokoban</string>
+    <string name="menu_difficulty">difficulty</string>
+    <string name="menu_level">levels</string>
+    <string name="menu_easy">Easy</string>
+    <string name="menu_middle">Middle</string>
+    <string name="menu_hard">Hard</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="you_won">You have successfully completed the level</string>
+    <string name="last_level_won">You have successfully completed the last level</string>
+    <string name="next_level">Next level</string>
+    <string name="play_again">Play again</string>
+</resources>
